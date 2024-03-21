@@ -1,0 +1,143 @@
+<mxfile host="Electron" modified="2024-03-21T09:22:18.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="fLd6nOgFhHAZvLEfj-72" version="23.1.5" type="device" pages="2">
+  <diagram id="5XKWqxpHCPLWHHA1p2gk" name="pass_by_reference">
+    <mxGraphModel dx="2074" dy="1214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ul6QCmWC0ymTTcgfQERQ-2" target="ul6QCmWC0ymTTcgfQERQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-2" value="A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-3" value="B = A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ul6QCmWC0ymTTcgfQERQ-5" target="ul6QCmWC0ymTTcgfQERQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.016;entryY=0.639;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="ul6QCmWC0ymTTcgfQERQ-5" target="ul6QCmWC0ymTTcgfQERQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-5" value="B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-6" value="&quot;spam&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-7" value="&quot;shrubbery&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-8" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="330" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ul6QCmWC0ymTTcgfQERQ-10" target="ul6QCmWC0ymTTcgfQERQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-10" value="A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-11" value="B = A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ul6QCmWC0ymTTcgfQERQ-13" target="ul6QCmWC0ymTTcgfQERQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ul6QCmWC0ymTTcgfQERQ-15" target="ul6QCmWC0ymTTcgfQERQ-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="719.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-13" value="B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-14" value="[&lt;strike&gt;&quot;spam&quot;&lt;/strike&gt; &quot;shrubbery&quot;]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-15" value="B[0]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-16" value="&lt;span class=&quot;fontstyle0&quot;&gt;A = [&quot;spam&quot;]&lt;br&gt;B = A&lt;br&gt;B[0] = &quot;shrubbery&quot;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="580" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-17" value="A = &quot;spam&quot;&lt;br&gt;B = A&lt;br&gt;B = &quot;shrubbery&quot; &lt;br/&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="295" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6QCmWC0ymTTcgfQERQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=1;entryY=0.5;entryPerimeter=0;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=none;endFill=0;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="500" as="sourcePoint" />
+            <mxPoint x="45" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="classes_instances" id="fSP219Qv57GZYhGxyUv3">
+    <mxGraphModel dx="2074" dy="1214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-1" value="instantiate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xANYkGlC_JNNwY0ZGK-Z-2" target="xANYkGlC_JNNwY0ZGK-Z-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-2" value="Class: FirstClass" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="335" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-3" value="+ data&lt;br&gt;+ instanceName&lt;br&gt;+ cls_var = &quot;cls_var1&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xANYkGlC_JNNwY0ZGK-Z-2">
+          <mxGeometry y="26" width="200" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xANYkGlC_JNNwY0ZGK-Z-2">
+          <mxGeometry y="80" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-5" value="+ setData(self, value)&lt;br&gt;+ display(self)&lt;br&gt;+ addValue(self, value)&lt;br&gt;+ setInstanceName(self, name)&lt;br&gt;+ @classMethod&lt;br&gt;&amp;nbsp; &amp;nbsp;setCls_var(cls, new_val)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xANYkGlC_JNNwY0ZGK-Z-2">
+          <mxGeometry y="88" width="200" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-6" value="Instance :y" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="350" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-7" value="+ data: = 3.14159&lt;br&gt;+ instanceName" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xANYkGlC_JNNwY0ZGK-Z-6">
+          <mxGeometry y="26" width="200" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xANYkGlC_JNNwY0ZGK-Z-6">
+          <mxGeometry y="60" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-9" value="+ setData(self, value)&lt;br&gt;+ display(self)&lt;br&gt;+ addValue(self, value)&lt;br&gt;+ setInstanceName(self,name)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xANYkGlC_JNNwY0ZGK-Z-6">
+          <mxGeometry y="68" width="200" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-10" value="Class Definition" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-11" value="y is an Instance of FirstClass" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-12" value="class FirstClass:                 # Define a class  object&#xa;    cls_var = &quot;cls_var1&quot;&#xa;&#xa;    def setdata(self, value):     # Define class&#39;s methods&#xa;       self.data = value          # self is the instance&#xa;&#xa;    def display(self):&#xa;       print(self.data)           # self.data: per instance&#xa;       print(FirstClass.cls_var)  # can also say: self.cls_var &#xa;&#xa;    def addValue(self, value):&#xa;       self.data = self.data + value&#xa;&#xa;    def setInstanceName(self, name):&#xa;       self.instanceName = name&#xa;&#xa;    @classMethod&#xa;    def setCls_var(cls, new_val):&#xa;       FirstClass.cls_var = new_val # can also use: cls.cls_var&#xa;" style="text;align=left;verticalAlign=top;rounded=0;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-13" value="Instance :x" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-14" value="+ data: = &quot;King Arthur&quot;&lt;br&gt;+ instanceName = &quot;instance x&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xANYkGlC_JNNwY0ZGK-Z-13">
+          <mxGeometry y="26" width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="xANYkGlC_JNNwY0ZGK-Z-13">
+          <mxGeometry y="60" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-16" value="+ setData(self, value)&lt;br&gt;+ display(self)&lt;br&gt;+ addValue(self, value)&lt;br&gt;+ setInstanceName(self, name)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xANYkGlC_JNNwY0ZGK-Z-13">
+          <mxGeometry y="68" width="180" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-17" value="x is an Instance of FirstClass" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-18" value="x = FirstClass()         &#xa;&#xa;x.setdata(&quot;King Arthur&quot;) # Call methods: self is x &#xa;&#xa;&#xa;x.setdata(&quot;New value&quot;)   # x.setdata(self=x, value=2.1415)&#xa;&#xa;x.display()&#xa;&#xa;x.addValue(&quot; has a sword&quot;)&#xa;&#xa;x.setInstanceName(&quot;instance x&quot;)&#xa;" style="text;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="670" y="100" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-19" value="y = FirstClass()&amp;nbsp; &amp;nbsp; &amp;nbsp; # Each is a new namespace &lt;br&gt;&lt;table class=&quot;NormalTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width=&quot;212&quot;&gt;&lt;br&gt;y.setdata(3.14159)&lt;br&gt;&lt;br&gt;y.setdata(2.1415)&amp;nbsp; &amp;nbsp; &amp;nbsp;# y.setdata(self=y, value=2.1415)&lt;br&gt;&lt;br&gt;y.display()&lt;br&gt;&lt;br&gt;y.addValue(2)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;# y.addValue(self=y, value=2)&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; &lt;div&gt;y.setInstanceName(&quot;instance y&quot;)&lt;/div&gt;" style="text;html=1;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="680" y="350" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-20" value="instantiate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xANYkGlC_JNNwY0ZGK-Z-3" target="xANYkGlC_JNNwY0ZGK-Z-7">
+          <mxGeometry x="0.0055" relative="1" as="geometry">
+            <mxPoint x="420" y="393" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xANYkGlC_JNNwY0ZGK-Z-21" value="Instance variable:&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Always accessed using &amp;lt;instance&amp;gt;.&amp;lt;variable_name&amp;gt;.&amp;nbsp; In the example above, x.data, y.data, self.data&lt;/li&gt;&lt;li&gt;Each instance has a separate variable: x.data is different from y.data&lt;/li&gt;&lt;/ul&gt;Class Variable:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Accessed using &amp;lt;class&amp;gt;.&amp;lt;variable_name&amp;gt; or &amp;lt;instance&amp;gt;.&amp;lt;variable_name&amp;gt;.&amp;nbsp; In the example above, FirstClass.cls_var or x.cls_var or y.cls_var&lt;/li&gt;&lt;li&gt;All instances of the class share this variable.&amp;nbsp; So same value across all instances of the class.&lt;/li&gt;&lt;li&gt;Value for the class variable is stored in the Class and not in the Instance.&amp;nbsp; This is the reason it is shared across all instances.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Class Method:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Accessed using &amp;lt;class&amp;gt;.&amp;lt;method_name&amp;gt; .&amp;nbsp; Don’t think can be accessed as self.&amp;lt;method_name&amp;gt; or &amp;lt;instance&amp;gt;.&amp;lt;method_name&amp;gt; ???&lt;/li&gt;&lt;li&gt;This method gets ‘cls’ as the first argument and not ‘self’.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;fontFamily=Courier New;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="560" width="420" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
